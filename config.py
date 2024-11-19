@@ -4,10 +4,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", 29893020))
-API_HASH = getenv("API_HASH", "28e79037f0b334ef0503466c53f08af5")
+API_ID = int(getenv("API_ID", 24184499))
+API_HASH = getenv("API_HASH", "f4411916ac2d0e91579406017771b49c")
 BOT_TOKEN = getenv("BOT_TOKEN", None)
-OWNER_ID = int(getenv("OWNER_ID", 6399386263))
+OWNER_ID = int(getenv("OWNER_ID", 7748891643))
 MONGO_URL = getenv("MONGO_URL", None)
 SUPPORT_GRP = getenv("SUPPORT_GRP", "Blissfull_Music")
 UPDATE_CHNL = getenv("UPDATE_CHNL", "akaChampu")
